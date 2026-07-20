@@ -1,0 +1,9 @@
+{
+  "url": "https://sig.inab.gob.gt/server/rest/services/Hosted/service_fff38eb7eac44746a91435fc53d2b5d1/FeatureServer/7?f=pjson",
+  "institucion": "Instituto Nacional de Bosques (INAB)",
+  "campo": "codmuni_i",
+  "municipios": 340,
+  "sha256_respuesta": "674621ceeb121134d3beb78ab365f3699efd48e4be7bb8dab5b7eb29ae934d04",
+  "nota": "Dominio territorial externo. Las variantes de nombres del MINEDUC se documentan por separado.",
+  "fecha_entrega": "2026-07-23"
+}
