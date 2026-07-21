@@ -1,0 +1,69 @@
+# Libro de códigos preliminar
+
+Alcance: esquema y decisiones propuestas; la limpieza final permanece pendiente. Las 17 variables y el diagnóstico inicial provienen del avance entregado. Se reportaron 11,867 registros de 23 CSV, extraídos el 19 de julio de 2026.
+
+Fuente: https://www.mineduc.gob.gt/BUSCAESTABLECIMIENTO_GE/. Nivel DIVERSIFICADO; otros filtros TODOS. Unidad: código de servicio educativo, no plantel único.
+
+## CODIGO
+
+Descripción: Código único del servicio educativo autorizado. No identifica necesariamente un plantel físico único.
+
+Tipo previsto: Identificador textual.
+
+Dominio y tratamiento a verificar: Dos dígitos de territorio, dos de municipio/zona, cuatro de servicio y sufijo 46: 00-00-0000-46. Único y no vacío. Conservar ceros iniciales y guiones; normalizar solo espacios externos. No inventar ni renumerar códigos.
+
+## DISTRITO
+
+Descripción: Código de distrito o supervisión educativa informado por el MINEDUC.
+
+Tipo previsto: Identificador textual opcional.
+
+Dominio y tratamiento a verificar: 00-000 o 00-00-0000; vacío si falta o está incompleto. Mantener ambos formatos; retirar espacios externos, convertir marcadores e incompletos en vacío y conservar DISTRITO_ORIGINAL y ESTADO_DISTRITO.
+
+## DEPARTAMENTO
+
+Descripción: Departamento territorial del establecimiento según catálogo oficial.
+
+Tipo previsto: Categórica nominal.
+
+Dominio y tratamiento a verificar: 22 departamentos del catálogo municipios.csv. Normalizar acentos/espacios por catálogo. CIUDAD CAPITAL se integra en GUATEMALA, con origen y zona conservados.
+
+## MUNICIPIO
+
+Descripción: Municipio territorial validado por código. Las zonas de capital se almacenan por separado.
+
+Tipo previsto: Categórica nominal.
+
+Dominio y tratamiento a verificar: Nombres oficiales de los 340 municipios; el nombre puede repetirse en varios departamentos, por lo que se usa CODIGO_MUNICIPIO. Validar código, nombre y departamento con INAB; aceptar solo equivalencias explícitas. No aplicar unificación difusa.
+
+## ESTABLECIMIENTO
+
+Descripción: Nombre del centro educativo asociado al código de servicio.
+
+Tipo previsto: Texto nominal opcional.
+
+Dominio y tratamiento a verificar: Texto de longitud variable o vacío; nombres iguales pueden representar servicios o sedes diferentes. Unicode NFC, espacios uniformes y mayúsculas. Mantener tildes existentes, siglas y puntuación con significado; no fusionar nombres automáticamente.
+
+## DIRECCION
+
+Descripción: Dirección física del establecimiento informada en la fuente.
+
+Tipo previsto: Texto opcional.
+
+Dominio y tratamiento a verificar: Texto o vacío; números de casa, guiones y referencias son significativos. Convertir marcadores explícitos en vacío; retirar caracteres invisibles y espacios repetidos; expandir AV./AVDA./AVEN. y uniformar KM. sin modificar números.
+
+## TELEFONO
+
+Descripción: Uno o más teléfonos completos extraídos de la cadena de contacto original.
+
+Tipo previsto: Identificador textual opcional.
+
+Dominio y tratamiento a verificar: Ocho dígitos por número; varios separados por punto y coma; vacío cuando no existe ningún número completo verificable por formato. Unir grupos 4+4 y retirar prefijo explícito +502/(502); separar números completos sin completar rangos, teléfonos antiguos o dígitos faltantes. Mantener original, estado y notas.
+
+## SUPERVISOR
+
+Descripción: Nombre de la persona responsable de supervisión educativa.
+
+Tipo previsto: Texto nominal opcional.
+
+Dominio y tratamiento a verificar: Texto o vacío. No se interpreta como una identidad personal verificada. Normalizar Unicode, espacios y mayúsculas; marcadores de ausencia a vacío; conservar tildes, partículas y apellidos compuestos.
