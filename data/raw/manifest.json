@@ -1,0 +1,194 @@
+{
+  "fuente": "https://www.mineduc.gob.gt/BUSCAESTABLECIMIENTO_GE/",
+  "nivel": "DIVERSIFICADO",
+  "filtros_restantes": "TODOS",
+  "nota": "Exportación de consultas territoriales del MINEDUC con nivel DIVERSIFICADO.",
+  "archivos": [
+    {
+      "archivo": "16_diversificado.csv",
+      "codigo_territorio": "16",
+      "territorio": "ALTA VERAPAZ",
+      "registros": 492,
+      "sha256": "1d1b90a203e3c1edf72e3d7e51fc96730ddc52e616a5f5098763e70d64c475e4",
+      "fecha_entrega": "2026-07-23"
+    },
+    {
+      "archivo": "15_diversificado.csv",
+      "codigo_territorio": "15",
+      "territorio": "BAJA VERAPAZ",
+      "registros": 178,
+      "sha256": "b0833672e2dd72a8ba3926eb32419bbd7938ca10abb7640f2eb5e38db5a763e4",
+      "fecha_entrega": "2026-07-23"
+    },
+    {
+      "archivo": "04_diversificado.csv",
+      "codigo_territorio": "04",
+      "territorio": "CHIMALTENANGO",
+      "registros": 442,
+      "sha256": "0f2ef61a6a916ed51004b8527a4f9a01f8de4a4847d843640d64c4d1281686fe",
+      "fecha_entrega": "2026-07-23"
+    },
+    {
+      "archivo": "20_diversificado.csv",
+      "codigo_territorio": "20",
+      "territorio": "CHIQUIMULA",
+      "registros": 246,
+      "sha256": "c272ffeb6e7c6d8c998c4869469fb2cf3f020982f1ec60c02b2e8d7b15eba6b2",
+      "fecha_entrega": "2026-07-23"
+    },
+    {
+      "archivo": "00_diversificado.csv",
+      "codigo_territorio": "00",
+      "territorio": "CIUDAD CAPITAL",
+      "registros": 2168,
+      "sha256": "e930d2c5347f319158053e55679631dc21941305cf549517f54879f55897b8d6",
+      "fecha_entrega": "2026-07-23"
+    },
+    {
+      "archivo": "02_diversificado.csv",
+      "codigo_territorio": "02",
+      "territorio": "EL PROGRESO",
+      "registros": 161,
+      "sha256": "b1447bb19d08a5dc00d1ae5cac7b2fddb90c83ff2076a5d4777ab83270293bb1",
+      "fecha_entrega": "2026-07-23"
+    },
+    {
+      "archivo": "05_diversificado.csv",
+      "codigo_territorio": "05",
+      "territorio": "ESCUINTLA",
+      "registros": 710,
+      "sha256": "c950944c7365d336a7ab748a5c194796e272a776935229fc4c4530eaa33ef928",
+      "fecha_entrega": "2026-07-23"
+    },
+    {
+      "archivo": "01_diversificado.csv",
+      "codigo_territorio": "01",
+      "territorio": "GUATEMALA",
+      "registros": 1918,
+      "sha256": "2e3b97e0aa349ae9b882453ddd73dc8d3526e1bd60b7673a008b6e4289839d70",
+      "fecha_entrega": "2026-07-23"
+    },
+    {
+      "archivo": "13_diversificado.csv",
+      "codigo_territorio": "13",
+      "territorio": "HUEHUETENANGO",
+      "registros": 606,
+      "sha256": "a617ad6960f9a36385fbd29cc79353ab3e4fa3f321e69ad2d55f6edfea77baca",
+      "fecha_entrega": "2026-07-23"
+    },
+    {
+      "archivo": "18_diversificado.csv",
+      "codigo_territorio": "18",
+      "territorio": "IZABAL",
+      "registros": 418,
+      "sha256": "bf896f74b43ea67328e4034045c369a3aabcd493eb539770274aa3c4d6dba43b",
+      "fecha_entrega": "2026-07-23"
+    },
+    {
+      "archivo": "21_diversificado.csv",
+      "codigo_territorio": "21",
+      "territorio": "JALAPA",
+      "registros": 189,
+      "sha256": "6349d38fbb27d24fd9e113e0db5fc7e194afd3953932684d434cafc95fecc528",
+      "fecha_entrega": "2026-07-23"
+    },
+    {
+      "archivo": "22_diversificado.csv",
+      "codigo_territorio": "22",
+      "territorio": "JUTIAPA",
+      "registros": 397,
+      "sha256": "6f6dad0f5471074cc49541fbbfd54e1794f8c550a24b3b0950d221ae222082ce",
+      "fecha_entrega": "2026-07-23"
+    },
+    {
+      "archivo": "17_diversificado.csv",
+      "codigo_territorio": "17",
+      "territorio": "PETEN",
+      "registros": 522,
+      "sha256": "9503c668656d255fd725aeaf4df740a00a8d04c0ef76cb00f0ba3b41dd58b751",
+      "fecha_entrega": "2026-07-23"
+    },
+    {
+      "archivo": "09_diversificado.csv",
+      "codigo_territorio": "09",
+      "territorio": "QUETZALTENANGO",
+      "registros": 556,
+      "sha256": "25d15ee96c7fbe350e9d227212089f45965d1e06a851eb2ca34f365ef037c0b2",
+      "fecha_entrega": "2026-07-23"
+    },
+    {
+      "archivo": "14_diversificado.csv",
+      "codigo_territorio": "14",
+      "territorio": "QUICHE",
+      "registros": 337,
+      "sha256": "62d259ebdd92eec3ae05f7422295fd6efa11e7b7e3eb91726ac9e74cac668da4",
+      "fecha_entrega": "2026-07-23"
+    },
+    {
+      "archivo": "11_diversificado.csv",
+      "codigo_territorio": "11",
+      "territorio": "RETALHULEU",
+      "registros": 367,
+      "sha256": "567d284c660643e64a9c03ae35d1dbc71a7ff0ad22aa4940bb0a7994dd57cf62",
+      "fecha_entrega": "2026-07-23"
+    },
+    {
+      "archivo": "03_diversificado.csv",
+      "codigo_territorio": "03",
+      "territorio": "SACATEPEQUEZ",
+      "registros": 434,
+      "sha256": "9d1be681c9e19e0e1d4820c848408d9893477550f112676972d9e903575b3d3d",
+      "fecha_entrega": "2026-07-23"
+    },
+    {
+      "archivo": "12_diversificado.csv",
+      "codigo_territorio": "12",
+      "territorio": "SAN MARCOS",
+      "registros": 739,
+      "sha256": "77f977d65930eca5e490819ec360cc759bb4c5ab09a413429cc09528a6bc468b",
+      "fecha_entrega": "2026-07-23"
+    },
+    {
+      "archivo": "06_diversificado.csv",
+      "codigo_territorio": "06",
+      "territorio": "SANTA ROSA",
+      "registros": 230,
+      "sha256": "5a65e02ea33695660693724f4a1764db8f8a7707368c47d919b8637ad9071df3",
+      "fecha_entrega": "2026-07-23"
+    },
+    {
+      "archivo": "07_diversificado.csv",
+      "codigo_territorio": "07",
+      "territorio": "SOLOLA",
+      "registros": 200,
+      "sha256": "0f5982a352bbfe9d63b96a925d0351ba201a43f3f813e8b8470ad19ce97e0c98",
+      "fecha_entrega": "2026-07-23"
+    },
+    {
+      "archivo": "10_diversificado.csv",
+      "codigo_territorio": "10",
+      "territorio": "SUCHITEPEQUEZ",
+      "registros": 441,
+      "sha256": "5d8a9f86cedc94b1a63cdeea5f23e382ac783951af2981c5dbf59d24da038bdc",
+      "fecha_entrega": "2026-07-23"
+    },
+    {
+      "archivo": "08_diversificado.csv",
+      "codigo_territorio": "08",
+      "territorio": "TOTONICAPAN",
+      "registros": 130,
+      "sha256": "c7ab33dfea200d40dfe757f1d68bb36f9e7325ea4820bb440efebb31af0f92f3",
+      "fecha_entrega": "2026-07-23"
+    },
+    {
+      "archivo": "19_diversificado.csv",
+      "codigo_territorio": "19",
+      "territorio": "ZACAPA",
+      "registros": 162,
+      "sha256": "3259a5c412f471a1f74c6c5e7d09a537ed0c40bed24b92ca0ea9d2ff8f481eaf",
+      "fecha_entrega": "2026-07-23"
+    }
+  ],
+  "registros": 12043,
+  "fecha_entrega": "2026-07-23"
+}
