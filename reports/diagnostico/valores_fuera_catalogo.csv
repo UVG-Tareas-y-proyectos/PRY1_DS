@@ -1,0 +1,30 @@
+variable,valor,registros,problema
+MUNICIPIO,ZONA 1,871,zona_capital
+MUNICIPIO,ZONA 7,236,zona_capital
+MUNICIPIO,ZONA 12,149,zona_capital
+MUNICIPIO,ZONA 18,134,zona_capital
+MUNICIPIO,ZONA 2,118,zona_capital
+MUNICIPIO,ZONA 6,94,zona_capital
+MUNICIPIO,ZONA 11,80,zona_capital
+MUNICIPIO,ZONA 19,66,zona_capital
+MUNICIPIO,ZONA 13,62,zona_capital
+MUNICIPIO,ZONA 3,61,zona_capital
+MUNICIPIO,ZONA 10,56,zona_capital
+MUNICIPIO,ZONA 5,46,zona_capital
+MUNICIPIO,ZONA 21,40,zona_capital
+MUNICIPIO,ZONA 9,38,zona_capital
+MUNICIPIO,ZONA 17,30,zona_capital
+MUNICIPIO,LA TINTA,26,requiere_catalogo_o_equivalencia
+MUNICIPIO,SAN MIGUEL USPANTAN,26,requiere_catalogo_o_equivalencia
+MUNICIPIO,ZONA 14,22,zona_capital
+MUNICIPIO,SANTO TOMAS CHICHICASTENANGO,22,requiere_catalogo_o_equivalencia
+MUNICIPIO,ZONA 15,21,zona_capital
+MUNICIPIO,ZONA 16,20,zona_capital
+MUNICIPIO,PACHALUN,18,requiere_catalogo_o_equivalencia
+MUNICIPIO,GENOVA COSTA CUCA,11,requiere_catalogo_o_equivalencia
+MUNICIPIO,ZONA 8,10,zona_capital
+MUNICIPIO,ALOTENANGO,9,requiere_catalogo_o_equivalencia
+MUNICIPIO,ZONA 4,6,zona_capital
+MUNICIPIO,ZONA 25,6,zona_capital
+MUNICIPIO,ZONA 24,2,zona_capital
+MUNICIPIO,SAN MIGUEL PANAM,1,requiere_catalogo_o_equivalencia
