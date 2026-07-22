@@ -143,3 +143,9 @@ Dominio y tratamiento a verificar: Regiones autorizadas en categorias.json, clav
 ## Variables derivadas propuestas
 
 El avance propone TELEFONO_LIMPIO y ESTADO_TELEFONO, además de conservar nombres y direcciones originales. La implementación y el libro definitivo se incorporan en la fase final. También será necesario distinguir zona capital de municipio y documentar las comprobaciones de distrito y geografía.
+
+## Metadatos comunes y trazabilidad propuesta
+
+La fuente educativa es el buscador oficial MINEDUC y la unidad de observación es un código de servicio. El manifiesto data/raw/manifest.json contiene los datos de procedencia y las sumas SHA-256 por archivo. El catálogo municipal externo y sus equivalencias se documentan en docs/FUENTES_Y_CATALOGOS.md.
+
+Este libro preliminar es versión 0.1: define campos y reglas previstas, no resultados finales. Las ausencias no se imputarán. Las diferencias de jornada, plan o código impiden asumir que dos servicios son un duplicado por tener un nombre similar. La fase final deberá incluir el registro de transformaciones, las pruebas automáticas y el dominio completo de cada variable derivada.
