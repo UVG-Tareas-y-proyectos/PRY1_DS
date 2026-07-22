@@ -67,3 +67,79 @@ Descripción: Nombre de la persona responsable de supervisión educativa.
 Tipo previsto: Texto nominal opcional.
 
 Dominio y tratamiento a verificar: Texto o vacío. No se interpreta como una identidad personal verificada. Normalizar Unicode, espacios y mayúsculas; marcadores de ausencia a vacío; conservar tildes, partículas y apellidos compuestos.
+
+## DIRECTOR
+
+Descripción: Nombre de la persona registrada como directora o director.
+
+Tipo previsto: Texto nominal opcional.
+
+Dominio y tratamiento a verificar: Texto o vacío; no imputar nombres faltantes. Mismo tratamiento que SUPERVISOR. Se conserva el valor original para revisar marcadores y escritura.
+
+## NIVEL
+
+Descripción: Nivel educativo autorizado del servicio.
+
+Tipo previsto: Categórica constante.
+
+Dominio y tratamiento a verificar: DIVERSIFICADO. Normalizar texto y comprobar que todas las filas correspondan al nivel 46.
+
+## SECTOR
+
+Descripción: Tipo de gestión del servicio educativo.
+
+Tipo previsto: Categórica nominal.
+
+Dominio y tratamiento a verificar: Dominio explícito en categorias.json, clave SECTOR. Uniformar escritura contra catálogo; conservar oficial, privado, municipal y cooperativa como categorías distintas.
+
+## AREA
+
+Descripción: Clasificación urbana/rural del establecimiento.
+
+Tipo previsto: Categórica nominal.
+
+Dominio y tratamiento a verificar: URBANA, RURAL o SIN ESPECIFICAR. Uniformar escritura. SIN ESPECIFICAR permanece como categoría informada y no se reemplaza por ausencia.
+
+## STATUS
+
+Descripción: Estado administrativo del código de servicio.
+
+Tipo previsto: Categórica nominal.
+
+Dominio y tratamiento a verificar: Dominio explícito en categorias.json, clave STATUS. Conservar cierres temporales, definitivos y estados temporales. No filtrar a establecimientos abiertos.
+
+## MODALIDAD
+
+Descripción: Modalidad lingüística autorizada del servicio.
+
+Tipo previsto: Categórica nominal.
+
+Dominio y tratamiento a verificar: MONOLINGUE o BILINGUE. Normalizar texto contra catálogo sin inferir idioma específico.
+
+## JORNADA
+
+Descripción: Jornada en la que está autorizado el servicio educativo.
+
+Tipo previsto: Categórica nominal.
+
+Dominio y tratamiento a verificar: Dominio explícito en categorias.json, clave JORNADA. Uniformar escritura; SIN JORNADA se conserva separada de la ausencia. No fusionar jornadas.
+
+## PLAN
+
+Descripción: Plan o frecuencia de atención educativa autorizada.
+
+Tipo previsto: Categórica nominal.
+
+Dominio y tratamiento a verificar: Dominio explícito en categorias.json, clave PLAN. Mantener planes diarios, de fin de semana, virtuales y semipresenciales diferenciados. Normalización por equivalencia de acentos/caso/espacios.
+
+## DEPARTAMENTAL
+
+Descripción: Dirección departamental administrativa responsable del servicio.
+
+Tipo previsto: Categórica nominal.
+
+Dominio y tratamiento a verificar: Regiones autorizadas en categorias.json, clave DEPARTAMENTAL; puede incluir Guatemala Norte/Sur/Oriente/Occidente o Quiché Norte. Normalizar por catálogo; validar correspondencia con departamento territorial, sin confundir región administrativa con departamento.
+
+## Variables derivadas propuestas
+
+El avance propone TELEFONO_LIMPIO y ESTADO_TELEFONO, además de conservar nombres y direcciones originales. La implementación y el libro definitivo se incorporan en la fase final. También será necesario distinguir zona capital de municipio y documentar las comprobaciones de distrito y geografía.
