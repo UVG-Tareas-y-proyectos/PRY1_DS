@@ -1,0 +1,19 @@
+{
+  "registros": 12043,
+  "variables": 17,
+  "celdas": 204731,
+  "vacios": 4415,
+  "faltantes_con_marcadores": 4415,
+  "porcentaje_faltantes_con_marcadores": 2.1565,
+  "variables_con_faltantes": 6,
+  "variables_con_vacios": 6,
+  "porcentaje_vacios": 2.1565,
+  "duplicados_exactos": 0,
+  "codigos_unicos": 12043,
+  "variables_con_formato_inconsistente": 0,
+  "telefonos_fuera_formato": 0,
+  "codigos_fuera_formato": 0,
+  "distritos_incompletos": 0,
+  "municipios_distintos": 334,
+  "tipos_incorrectos": 0
+}

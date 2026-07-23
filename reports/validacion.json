@@ -1,0 +1,151 @@
+{
+  "aprobada": true,
+  "total": 29,
+  "pruebas": [
+    {
+      "prueba": "conservar_registros",
+      "aprobada": true,
+      "detalle": "No se eliminan servicios sin evidencia documentada."
+    },
+    {
+      "prueba": "conservar_codigos",
+      "aprobada": true,
+      "detalle": "Misma secuencia de códigos y ceros iniciales."
+    },
+    {
+      "prueba": "codigo_formato",
+      "aprobada": true,
+      "detalle": "Identificadores de Diversificado."
+    },
+    {
+      "prueba": "codigo_unico",
+      "aprobada": true,
+      "detalle": "Cada fila representa un código de servicio único."
+    },
+    {
+      "prueba": "sin_duplicados_exactos",
+      "aprobada": true,
+      "detalle": "Sobre todas las variables originales, ya limpiadas."
+    },
+    {
+      "prueba": "tipos_textuales",
+      "aprobada": true,
+      "detalle": "CSV se importa explícitamente como texto; no se pierden ceros."
+    },
+    {
+      "prueba": "sin_espacios_externos",
+      "aprobada": true,
+      "detalle": "Se excluyen columnas originales conservadas como evidencia."
+    },
+    {
+      "prueba": "sin_espacios_multiples",
+      "aprobada": true,
+      "detalle": "Texto operativo uniforme."
+    },
+    {
+      "prueba": "unicode_y_mayusculas",
+      "aprobada": true,
+      "detalle": "NFC, mayúsculas y ausencia de caracteres invisibles."
+    },
+    {
+      "prueba": "telefono_formato",
+      "aprobada": true,
+      "detalle": "Cero o más números completos; separador punto y coma."
+    },
+    {
+      "prueba": "telefono_sin_inventar",
+      "aprobada": true,
+      "detalle": "Alias explícito del campo limpio."
+    },
+    {
+      "prueba": "distrito_formato",
+      "aprobada": true,
+      "detalle": "Se admiten los dos sistemas de códigos documentados."
+    },
+    {
+      "prueba": "catalogo_municipio_departamento",
+      "aprobada": true,
+      "detalle": "Código, nombre y departamento coinciden con catálogo oficial INAB."
+    },
+    {
+      "prueba": "geografia_sin_pendientes",
+      "aprobada": true,
+      "detalle": "Equivalencias revisadas por código; capital y zona separadas."
+    },
+    {
+      "prueba": "departamental_coherente",
+      "aprobada": true,
+      "detalle": "La dirección administrativa corresponde al territorio."
+    },
+    {
+      "prueba": "zona_capital_coherente",
+      "aprobada": true,
+      "detalle": "Las zonas de capital pertenecen al municipio de Guatemala."
+    },
+    {
+      "prueba": "dominio_nivel",
+      "aprobada": true,
+      "detalle": "Catálogo explícito; no se fusionan categorías administrativas distintas."
+    },
+    {
+      "prueba": "dominio_sector",
+      "aprobada": true,
+      "detalle": "Catálogo explícito; no se fusionan categorías administrativas distintas."
+    },
+    {
+      "prueba": "dominio_area",
+      "aprobada": true,
+      "detalle": "Catálogo explícito; no se fusionan categorías administrativas distintas."
+    },
+    {
+      "prueba": "dominio_status",
+      "aprobada": true,
+      "detalle": "Catálogo explícito; no se fusionan categorías administrativas distintas."
+    },
+    {
+      "prueba": "dominio_modalidad",
+      "aprobada": true,
+      "detalle": "Catálogo explícito; no se fusionan categorías administrativas distintas."
+    },
+    {
+      "prueba": "dominio_jornada",
+      "aprobada": true,
+      "detalle": "Catálogo explícito; no se fusionan categorías administrativas distintas."
+    },
+    {
+      "prueba": "dominio_plan",
+      "aprobada": true,
+      "detalle": "Catálogo explícito; no se fusionan categorías administrativas distintas."
+    },
+    {
+      "prueba": "dominio_departamental",
+      "aprobada": true,
+      "detalle": "Catálogo explícito; no se fusionan categorías administrativas distintas."
+    },
+    {
+      "prueba": "sin_marcadores_distrito",
+      "aprobada": true,
+      "detalle": "La ausencia se representa mediante campo vacío."
+    },
+    {
+      "prueba": "sin_marcadores_establecimiento",
+      "aprobada": true,
+      "detalle": "La ausencia se representa mediante campo vacío."
+    },
+    {
+      "prueba": "sin_marcadores_direccion",
+      "aprobada": true,
+      "detalle": "La ausencia se representa mediante campo vacío."
+    },
+    {
+      "prueba": "sin_marcadores_supervisor",
+      "aprobada": true,
+      "detalle": "La ausencia se representa mediante campo vacío."
+    },
+    {
+      "prueba": "sin_marcadores_director",
+      "aprobada": true,
+      "detalle": "La ausencia se representa mediante campo vacío."
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "version": "1.0.0",
+  "registros_crudos": 12043,
+  "registros_limpios": 12043,
+  "variables_originales": 17,
+  "variables_limpias": 32,
+  "celdas_modificadas": 13919,
+  "registros_modificados": 8025,
+  "pares_candidatos": 12063,
+  "codigos_en_pares": 8030,
+  "pares_conservar_servicios_distintos": 9441,
+  "pares_conservar_para_revision": 2622,
+  "registros_eliminados": 0,
+  "registros_fusionados": 0,
+  "estados_telefono": {
+    "VALIDO": 10826,
+    "AUSENTE": 973,
+    "MULTIPLE": 117,
+    "INVALIDO": 106,
+    "PARCIAL": 21
+  },
+  "estados_distrito": {
+    "VALIDO": 11309,
+    "AUSENTE": 664,
+    "INCOMPLETO": 70
+  },
+  "validacion_aprobada": true,
+  "pruebas": 29
+}

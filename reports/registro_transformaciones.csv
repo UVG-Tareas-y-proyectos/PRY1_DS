@@ -1,0 +1,9 @@
+variable,regla,registros_afectados,celdas_modificadas
+DEPARTAMENTO,Catálogo territorial oficial; capital pertenece a Guatemala.,4232,4232
+DIRECCION,Normalizar espacios y abreviaturas inequívocas sin alterar números.,968,968
+DIRECTOR,"Unicode NFC, espacios, mayúsculas y marcadores explícitos de ausencia; sin imputar datos.",1423,1423
+DISTRITO,No completar códigos; mantener formatos válidos y marcar incompletos.,70,70
+ESTABLECIMIENTO,"Unicode NFC, espacios, mayúsculas y marcadores explícitos de ausencia; sin imputar datos.",1182,1182
+MUNICIPIO,Catálogo por código y equivalencias documentadas; separar zona capital.,5025,5025
+SUPERVISOR,"Unicode NFC, espacios, mayúsculas y marcadores explícitos de ausencia; sin imputar datos.",769,769
+TELEFONO,Separar números válidos de ocho dígitos; conservar original y pendientes.,250,250
