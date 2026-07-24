@@ -86,7 +86,7 @@ def generar(root):
     metadata = f'''## Procedencia, versión y uso
 
 - Curso: CC3084 Data Science, Universidad del Valle de Guatemala, semestre II de 2026.
-- Integrantes: Ihan Marroquin (23108), Diego Patzan (23525) y Milton Polanco.
+- Integrantes: Ihan Marroquin (23108), Diego Patzan (23525) y Milton Polanco (23471).
 - Unidad de observación: código de servicio educativo autorizado de nivel Diversificado. Un centro físico puede tener varios códigos.
 - Fuente de datos: https://www.mineduc.gob.gt/BUSCAESTABLECIMIENTO_GE/.
 - Consulta: 23 territorios; nivel 46/DIVERSIFICADO; todos los sectores, planes, modalidades y estados.
@@ -110,7 +110,7 @@ Se identificaron {final['pares_candidatos']:,} pares de posibles coincidencias c
 La entrega incluye los 23 CSV crudos y el catálogo usado. Para reproducir los resultados sin acceder a la red: python -m src.pipeline, python -m src.documentacion y python -m src.pdf. El proceso verifica las sumas SHA-256 antes y después. Una descarga futura puede cambiar y se guarda en una carpeta diferente. Los comandos completos y las dependencias probadas están en README.md.
 '''
     book = "# Libro de códigos\n\nProyecto 1 · Obtención y limpieza de datos\n\nEstablecimientos educativos de Guatemala · Nivel Diversificado\n\n" + metadata + "\n" + original + "\n" + derived
-    (root / "docs/LIBRO_DE_CODIGOS.md").write_text(book, encoding="utf-8")
+    (root / "docs/LIBRO_DE_CODIGOS.md").write_text(book.rstrip() + "\n", encoding="utf-8")
     print(f"Libro de códigos: {len(clean.columns)} variables documentadas")
 
 

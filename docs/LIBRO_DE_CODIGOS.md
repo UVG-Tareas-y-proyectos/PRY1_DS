@@ -7,7 +7,7 @@ Establecimientos educativos de Guatemala · Nivel Diversificado
 ## Procedencia, versión y uso
 
 - Curso: CC3084 Data Science, Universidad del Valle de Guatemala, semestre II de 2026.
-- Integrantes: Ihan Marroquin (23108), Diego Patzan (23525) y Milton Polanco.
+- Integrantes: Ihan Marroquin (23108), Diego Patzan (23525) y Milton Polanco (23471).
 - Unidad de observación: código de servicio educativo autorizado de nivel Diversificado. Un centro físico puede tener varios códigos.
 - Fuente de datos: https://www.mineduc.gob.gt/BUSCAESTABLECIMIENTO_GE/.
 - Consulta: 23 territorios; nivel 46/DIVERSIFICADO; todos los sectores, planes, modalidades y estados.
@@ -303,6 +303,7 @@ La entrega incluye los 23 CSV crudos y el catálogo usado. Para reproducir los r
 **Tratamiento y utilidad:** Normalizar por catálogo; validar correspondencia con departamento territorial, sin confundir región administrativa con departamento.
 
 **Metadatos:** fuente y fecha de entrega de la sección de procedencia; versión 1.0.0. Se registra cualquier modificación del campo de origen en transformaciones_detalle.csv; las derivadas se documentan en su fórmula.
+
 
 ## Variables de trazabilidad y control
 
